@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Block Game Engine
 
 Windows용 Scratch 스타일 블록 코딩 2D 게임 엔진 MVP입니다.
@@ -129,3 +130,6 @@ dotnet publish -c Release -f net10.0-android
 - `.blockgame`: JSON 프로젝트 파일
 - `assets/`: 스프라이트 이미지 및 아이콘 (프로젝트 파일과 같은 폴더)
 - `EditorLayout`: 블록 Canvas 좌표 (Runtime 실행에 영향 없음)
+=======
+# block-coding
+>>>>>>> 95b6597149372516ae76375985f77aa1b4884c7c
