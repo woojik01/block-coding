@@ -1,0 +1,124 @@
+<Window x:Class="BlockGameEngine.Editor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:BlockGameEngine.Editor.ViewModels"
+        xmlns:ctrl="clr-namespace:BlockGameEngine.Editor.Controls"
+        Title="Block Game Engine" Height="820" Width="1280"
+        KeyDown="Window_KeyDown" KeyUp="Window_KeyUp">
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vm:BlockPaletteItem}">
+            <Border Margin="4" Padding="10,8" Background="{Binding Color}" CornerRadius="6">
+                <TextBlock Text="{Binding Label}" Foreground="White" FontWeight="SemiBold"/>
+            </Border>
+        </DataTemplate>
+    </Window.Resources>
+
+    <DockPanel Background="#F4F6F8">
+        <Border DockPanel.Dock="Top" Background="#172033" Padding="10">
+            <DockPanel>
+                <TextBlock Text="Block Game Engine" Foreground="White" FontSize="18" FontWeight="Bold" VerticalAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" HorizontalAlignment="Right">
+                    <Button Content="New" Command="{Binding NewProjectCommand}" Margin="4"/>
+                    <Button Content="Save" Command="{Binding SaveProjectCommand}" Margin="4"/>
+                    <Button Content="Load" Command="{Binding LoadProjectCommand}" Margin="4"/>
+                    <Button Content="Run" Command="{Binding RunCommand}" Margin="4"/>
+                    <Button Content="Export EXE" Command="{Binding ExportWindowsCommand}" Margin="4"/>
+                    <Button Content="Export APK" Command="{Binding ExportAndroidCommand}" Margin="4"/>
+                </StackPanel>
+            </DockPanel>
+        </Border>
+
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="240"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="380"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" Background="White" BorderBrush="#D5DAE2" BorderThickness="1" Padding="10">
+                <DockPanel>
+                    <TextBlock DockPanel.Dock="Top" Text="Blocks" FontSize="16" FontWeight="Bold" Margin="0,0,0,8"/>
+                    <ListBox ItemsSource="{Binding Palette}" PreviewMouseMove="Palette_PreviewMouseMove"
+                             BorderThickness="0" Background="Transparent"/>
+                </DockPanel>
+            </Border>
+
+            <Grid Grid.Column="1" Margin="10,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <DockPanel Grid.Row="0" Margin="0,0,0,6">
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="Copy" Command="{Binding CopyBlockCommand}" Margin="0,0,6,0"/>
+                        <Button Content="Delete" Command="{Binding DeleteBlockCommand}" Margin="0,0,6,0"/>
+                        <Button Content="Undo" Command="{Binding UndoCommand}" Margin="0,0,6,0"/>
+                        <Button Content="Redo" Command="{Binding RedoCommand}" Margin="0,0,6,0"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <TextBlock Text="Zoom" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                        <Slider Width="140" Minimum="0.5" Maximum="1.8" Value="{Binding WorkspaceZoom}" TickFrequency="0.1"/>
+                    </StackPanel>
+                </DockPanel>
+                <ComboBox Grid.Row="1" ItemsSource="{Binding ScriptTabs}" SelectedItem="{Binding SelectedScriptTab}"
+                          DisplayMemberPath="Label" Margin="0,0,0,6"/>
+                <Border Grid.Row="2" Background="#E9EDF3" BorderBrush="#C8D0DC" BorderThickness="1">
+                    <ctrl:BlockGraphCanvas x:Name="GraphCanvas"
+                                           Blocks="{Binding GraphBlocks}"
+                                           Zoom="{Binding WorkspaceZoom}"
+                                           SelectedBlock="{Binding SelectedGraphBlock, Mode=TwoWay}"/>
+                </Border>
+            </Grid>
+
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="160"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="90"/>
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0" Background="White" BorderBrush="#D5DAE2" BorderThickness="1" Padding="10" Margin="0,0,0,8">
+                    <StackPanel>
+                        <TextBlock Text="Project Settings" FontSize="16" FontWeight="Bold" Margin="0,0,0,8"/>
+                        <TextBlock Text="Name"/>
+                        <TextBox Text="{Binding ProjectName, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,6"/>
+                        <TextBlock Text="Version"/>
+                        <TextBox Text="{Binding ProjectVersion, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,6"/>
+                        <TextBlock Text="Application ID"/>
+                        <TextBox Text="{Binding ApplicationId, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,6"/>
+                        <Button Content="Import Icon" Command="{Binding ImportIconCommand}" HorizontalAlignment="Left"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Row="1" Background="White" BorderBrush="#D5DAE2" BorderThickness="1" Padding="10">
+                    <DockPanel>
+                        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,0,0,8">
+                            <TextBlock Text="Scene / Sprites" FontSize="16" FontWeight="Bold" VerticalAlignment="Center"/>
+                            <ComboBox x:Name="SceneCombo" Width="120" Margin="12,0,0,0"
+                                      SelectionChanged="SceneCombo_SelectionChanged"/>
+                        </StackPanel>
+                        <StackPanel>
+                            <ListBox ItemsSource="{Binding CurrentScene.Sprites}" SelectedItem="{Binding SelectedSprite}"
+                                     DisplayMemberPath="Name" Height="60" Margin="0,0,0,6"/>
+                            <Button Content="Import Sprite Image" Command="{Binding ImportSpriteImageCommand}" HorizontalAlignment="Left"/>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <Border Grid.Row="2" Margin="0,10,0,0" Background="#111827" BorderBrush="#D5DAE2" BorderThickness="1">
+                    <Canvas x:Name="PreviewCanvas" Width="360" Height="340" ClipToBounds="True"
+                            Background="#111827"
+                            MouseLeftButtonDown="PreviewCanvas_MouseLeftButtonDown"
+                            MouseLeftButtonUp="PreviewCanvas_MouseLeftButtonUp"
+                            MouseMove="PreviewCanvas_MouseMove"/>
+                </Border>
+
+                <Border Grid.Row="3" Margin="0,10,0,0" Background="White" BorderBrush="#D5DAE2" BorderThickness="1" Padding="10">
+                    <TextBlock Text="{Binding Status}" TextWrapping="Wrap"/>
+                </Border>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</Window>

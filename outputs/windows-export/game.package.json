@@ -1,0 +1,123 @@
+{
+  "FormatVersion": "1.0",
+  "CompiledAt": "2026-06-06T06:28:46.6955579+00:00",
+  "Project": {
+    "Name": "MVP Block Game",
+    "StartSceneName": "Main",
+    "Variables": {
+      "score": 0
+    },
+    "Scenes": [
+      {
+        "Name": "Main",
+        "Camera": {
+          "X": 0,
+          "Y": 0,
+          "Zoom": 1
+        },
+        "Sprites": [
+          {
+            "Id": "8f7e29c5e1694d4db8c50c006e1f1a17",
+            "Name": "Player",
+            "X": 120,
+            "Y": 140,
+            "Rotation": 0,
+            "Size": 1,
+            "Width": 48,
+            "Height": 48,
+            "Fill": "#3E7BFA",
+            "Variables": {},
+            "Scripts": [
+              {
+                "Root": {
+                  "Id": "fc47151c344b4a15b2b36bd8713c4020",
+                  "Kind": 0,
+                  "Label": "when game starts",
+                  "Number": 0,
+                  "Text": "",
+                  "Next": {
+                    "Id": "5a720310f4b647528c1147c5f738dbbc",
+                    "Kind": 12,
+                    "Label": "set score",
+                    "Number": 0,
+                    "Text": "score",
+                    "Next": null,
+                    "Children": []
+                  },
+                  "Children": []
+                }
+              },
+              {
+                "Root": {
+                  "Id": "cae7b5465f7c44baaed35e33c3d7417c",
+                  "Kind": 1,
+                  "Label": "when Right key pressed",
+                  "Number": 0,
+                  "Text": "Right",
+                  "Next": null,
+                  "Children": []
+                }
+              }
+            ],
+            "Bounds": {
+              "X": 96,
+              "Y": 116,
+              "Width": 48,
+              "Height": 48
+            }
+          },
+          {
+            "Id": "ad0e73925ed9483db306ca9cd3e8cbbf",
+            "Name": "Goal",
+            "X": 320,
+            "Y": 140,
+            "Rotation": 0,
+            "Size": 1,
+            "Width": 48,
+            "Height": 48,
+            "Fill": "#FFB703",
+            "Variables": {},
+            "Scripts": [
+              {
+                "Root": {
+                  "Id": "6c2c782975dc420599a4847aeab13ce1",
+                  "Kind": 3,
+                  "Label": "when touching another sprite",
+                  "Number": 0,
+                  "Text": "",
+                  "Next": {
+                    "Id": "bff3935799a84682babf81c253b31e25",
+                    "Kind": 13,
+                    "Label": "change score",
+                    "Number": 1,
+                    "Text": "score",
+                    "Next": null,
+                    "Children": []
+                  },
+                  "Children": []
+                }
+              },
+              {
+                "Root": {
+                  "Id": "294ecf67e50a4489b574e70365d87478",
+                  "Kind": 1,
+                  "Label": "when Right key pressed",
+                  "Number": 0,
+                  "Text": "Right",
+                  "Next": null,
+                  "Children": []
+                }
+              }
+            ],
+            "Bounds": {
+              "X": 296,
+              "Y": 116,
+              "Width": 48,
+              "Height": 48
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

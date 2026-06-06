@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "BlockGameEngine.Export/1.0.0": {
+        "dependencies": {
+          "BlockGameEngine.Compiler": "1.0.0",
+          "BlockGameEngine.ProjectIO": "1.0.0",
+          "BlockGameEngine.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "BlockGameEngine.Export.dll": {}
+        }
+      },
+      "BlockGameEngine.Compiler/1.0.0": {
+        "dependencies": {
+          "BlockGameEngine.ProjectIO": "1.0.0",
+          "BlockGameEngine.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "BlockGameEngine.Compiler.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "BlockGameEngine.ProjectIO/1.0.0": {
+        "dependencies": {
+          "BlockGameEngine.Runtime": "1.0.0"
+        },
+        "runtime": {
+          "BlockGameEngine.ProjectIO.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "BlockGameEngine.Runtime/1.0.0": {
+        "runtime": {
+          "BlockGameEngine.Runtime.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlockGameEngine.Export/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlockGameEngine.Compiler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlockGameEngine.ProjectIO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlockGameEngine.Runtime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

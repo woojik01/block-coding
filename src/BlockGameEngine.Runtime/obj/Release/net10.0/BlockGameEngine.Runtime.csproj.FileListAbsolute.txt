@@ -1,0 +1,11 @@
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Runtime\bin\Release\net10.0\BlockGameEngine.Runtime.deps.json
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Runtime\bin\Release\net10.0\BlockGameEngine.Runtime.dll
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Runtime\bin\Release\net10.0\BlockGameEngine.Runtime.pdb
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Runtime\obj\Release\net10.0\BlockGameEngine.Runtime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Runtime\obj\Release\net10.0\BlockGameEngine.Runtime.AssemblyInfoInputs.cache
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Runtime\obj\Release\net10.0\BlockGameEngine.Runtime.AssemblyInfo.cs
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Runtime\obj\Release\net10.0\BlockGameEngine.Runtime.csproj.CoreCompileInputs.cache
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Runtime\obj\Release\net10.0\BlockGameEngine.Runtime.dll
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Runtime\obj\Release\net10.0\refint\BlockGameEngine.Runtime.dll
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Runtime\obj\Release\net10.0\BlockGameEngine.Runtime.pdb
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Runtime\obj\Release\net10.0\ref\BlockGameEngine.Runtime.dll

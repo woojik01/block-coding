@@ -1,0 +1,17 @@
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\bin\Release\net10.0\BlockGameEngine.Compiler.deps.json
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\bin\Release\net10.0\BlockGameEngine.Compiler.dll
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\bin\Release\net10.0\BlockGameEngine.Compiler.pdb
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\bin\Release\net10.0\BlockGameEngine.ProjectIO.dll
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\bin\Release\net10.0\BlockGameEngine.Runtime.dll
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\bin\Release\net10.0\BlockGameEngine.Runtime.pdb
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\bin\Release\net10.0\BlockGameEngine.ProjectIO.pdb
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\obj\Release\net10.0\BlockGameEngine.Compiler.csproj.AssemblyReference.cache
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\obj\Release\net10.0\BlockGameEngine.Compiler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\obj\Release\net10.0\BlockGameEngine.Compiler.AssemblyInfoInputs.cache
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\obj\Release\net10.0\BlockGameEngine.Compiler.AssemblyInfo.cs
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\obj\Release\net10.0\BlockGameEngine.Compiler.csproj.CoreCompileInputs.cache
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\obj\Release\net10.0\BlockGam.B039E13D.Up2Date
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\obj\Release\net10.0\BlockGameEngine.Compiler.dll
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\obj\Release\net10.0\refint\BlockGameEngine.Compiler.dll
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\obj\Release\net10.0\BlockGameEngine.Compiler.pdb
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\src\BlockGameEngine.Compiler\obj\Release\net10.0\ref\BlockGameEngine.Compiler.dll

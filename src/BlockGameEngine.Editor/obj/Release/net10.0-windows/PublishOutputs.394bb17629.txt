@@ -1,0 +1,13 @@
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\outputs\editor-release\BlockGameEngine.Editor.exe
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\outputs\editor-release\BlockGameEngine.Editor.dll
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\outputs\editor-release\BlockGameEngine.Editor.deps.json
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\outputs\editor-release\BlockGameEngine.Editor.runtimeconfig.json
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\outputs\editor-release\BlockGameEngine.Editor.pdb
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\outputs\editor-release\BlockGameEngine.Compiler.dll
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\outputs\editor-release\BlockGameEngine.Export.dll
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\outputs\editor-release\BlockGameEngine.ProjectIO.dll
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\outputs\editor-release\BlockGameEngine.Runtime.dll
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\outputs\editor-release\BlockGameEngine.Runtime.pdb
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\outputs\editor-release\BlockGameEngine.ProjectIO.pdb
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\outputs\editor-release\BlockGameEngine.Compiler.pdb
+C:\Users\wooji\Documents\Codex\2026-06-06\windows-block-coding-2d-windows-exe\outputs\editor-release\BlockGameEngine.Export.pdb

@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BlockGameEngine.Compiler/BlockGameEngine.Compiler.csproj" />
+    <Project Path="src/BlockGameEngine.Editor/BlockGameEngine.Editor.csproj" />
+    <Project Path="src/BlockGameEngine.Export/BlockGameEngine.Export.csproj" />
+    <Project Path="src/BlockGameEngine.ProjectIO/BlockGameEngine.ProjectIO.csproj" />
+    <Project Path="src/BlockGameEngine.Runtime/BlockGameEngine.Runtime.csproj" />
+    <Project Path="src/BlockGameEngine.WindowsPlayer/BlockGameEngine.WindowsPlayer.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/BlockGameEngine.Tests/BlockGameEngine.Tests.csproj" />
+  </Folder>
+</Solution>
